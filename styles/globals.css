@@ -2,6 +2,7 @@ html,
 body {
 	margin: 0;
 	padding: 0;
+
 	color: var(--black);
 	background: #F5F6F8;
 
@@ -28,7 +29,7 @@ ul {
 	--gray-dark: #787D85;
 	--white: white;
 	--primary: #7653FC;
-	--primary-hover: #4920ee;
+	--primary-hover: #4920EE;
 	--red: #FC836D;
 	--green: #1DC37E;
 	--green-light: #C8F8E4;
