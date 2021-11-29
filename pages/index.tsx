@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Htag, Input, Rating, Tag } from "../components";
+import { Htag, Input, Rating, Tag, Textarea } from "../components";
 import { Button } from "../components";
 import { Ptag } from "../components";
 import { withLayout } from "../layout/Layout";
@@ -20,6 +20,7 @@ function Home({ menu }: HomeProps): JSX.Element {
 			<Tag size='medium' color='primary'>тег</Tag>
 			<Rating isEditable={true} rating={rating} setRating={setRating} />
 			<Input />
+			<Textarea />
 
 		</>
 	);
