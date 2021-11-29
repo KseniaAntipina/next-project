@@ -15,7 +15,7 @@ jobs:
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
           registry: ghcr.io
-          name: ghcr.io/kseniaantipina/next-project/next-project
+          name: kseniaantipina/next-project/next-project
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           dockerfile: Dockerfile
